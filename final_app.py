@@ -13,7 +13,7 @@ import re
 import time
 
 # ---------------------- Setup ---------------------- #
-google_api_key = "AIzaSyCmMY_SGutER89JBg99YXz3azn4J0F0aYA" 
+google_api_key = "" 
 llm = ChatGoogleGenerativeAI(model="gemini-2.0-flash-lite", temperature=0.3, api_key=google_api_key)
 
 # Load model and dataset
